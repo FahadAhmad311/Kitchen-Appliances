@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  color: chartreuse;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+section.appliance {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 25%;
+}
+
+section.appliance img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 10px;
+}
+button {
+  margin: 5px auto; /* Center buttons horizontally */
+  display: block; /* Make buttons stack vertically */
+  background-color: #4CAF50; /* Green color for buttons */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8; /* Slight opacity change on hover */
+}
